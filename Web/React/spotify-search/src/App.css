@@ -1,0 +1,77 @@
+.search-form{
+  text-align: center;
+  width: 30vw;
+  /* margin: 0 auto; */
+  border: 2px solid black;
+
+}
+
+.search-form input{
+  border-radius: 5px;
+  width: 90%;
+  margin: 3px;
+  /* padding: 5px; */
+  height: 30px;
+  font-size: larger;
+  letter-spacing: 1px;
+}
+input[type="button"]{
+  background-color: rgb(139, 232, 139);
+  width: 92%;
+  
+}
+
+.artist-card{
+  display: block;
+  text-align: center;
+}
+.artist-card *{
+  margin-block: 10px;
+}
+.artist-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.yatra-one-regular {
+  font-family: "Yatra One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.avatar{
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+}
+
+.icon{
+  height : 50px;
+  width: 140px;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
