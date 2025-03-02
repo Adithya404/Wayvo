@@ -1,0 +1,113 @@
+.main_box{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin:2px solid white;
+    padding: 5px;
+}
+.header{
+    border: 2px solid white;
+    padding: 2px;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.header p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logout{
+    padding: 2px;
+    margin: 2px;
+    margin-right: 5px;
+}
+.logout:hover{
+    background-color: rgb(197, 62, 62);
+}
+.logout:active{
+    background-color: red;
+    color: aliceblue;
+}
+/* .box_1{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+} */
+.box_1 {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around; /* Change to space-around for better spacing */
+    padding: 10px; /* Increase padding for better spacing */
+    margin: 10px; /* Add margin for separation from other elements */
+}
+.box_1 *{
+    height: 40px;
+    border-radius:25px;
+    background-color: white;
+    color:black;
+    padding-inline: 3px;
+    margin-inline: 3px;
+}
+.add{
+    width:10%;
+}
+.add:hover{
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+.add:active{
+    background-color: green;
+}
+.text{
+    width:30%;
+    padding-inline: 3px;
+}
+
+/* .box_2{
+    border: 2px solid green;
+    display: grid;
+    justify-content: center;
+    padding: 3px;
+    margin: 3px;
+} */
+.box_2 {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Add gap between grid items */
+    padding: 10px; /* Increase padding for better spacing */
+    margin: 10px; /* Add margin for separation from other elements */
+}
+
+/* .item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.item {
+    display: flex; /* Change to flex for better alignment */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+.sno{
+    background-color: aliceblue;
+    width:20%;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    padding-block: 3%;
+    height:40px;
+}
+.todo_item{
+    border: 2px solid violet;
+    display: block;
+    gap: 5px;
+}
+.todo_item *{
+    padding: 3px;
+    margin-inline: 3px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}

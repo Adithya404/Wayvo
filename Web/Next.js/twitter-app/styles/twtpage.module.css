@@ -1,0 +1,37 @@
+.main{
+    text-align: center;
+    /* border: 2px dashed white; */
+    position: relative;
+    /* width:40vw;  */
+    border-radius: 5px;
+    margin-top: 10%;  
+}
+.post_container{
+    width: 70vw;
+    margin-top: 5%;
+}
+
+.tweet{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    width: 90%;
+    text-align: center  ;
+    background-color: white;
+    color: black;
+    margin-block: 5px;
+    border-radius: 7px;
+    height: 30px;
+    padding: 3px;
+    align-items: center,
+}
+
+.tweet:hover{
+    transform: scale(1.03);
+    transition:ease-in-out 0.5s;
+    background-color:rgb(96, 211, 81);
+    cursor: pointer;
+    margin-block: 10px;
+}
+.tweet:active{
+    background-color:red;
+}

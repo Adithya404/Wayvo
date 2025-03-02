@@ -1,0 +1,60 @@
+.main{
+    text-align: center;
+    border: 2px dashed white;
+    position: relative;
+    width:40vw;
+    border-radius: 5px;
+    margin-top: 50%;
+
+}
+.main *{
+    margin-block: 10px;
+}
+.cred{
+    width: 90%;
+    height:40px;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    font-size: medium;
+}
+.cred:hover{
+    transform: scale(1.03);
+}
+
+.btn{
+    padding: 5px;
+    width: 40%;
+    border-radius: 7px;
+    font-size:medium;
+    background-color:rgb(96, 211, 81);
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(123, 137, 207);
+    transform: scale(1.1);
+    
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.error {
+    text-align: center;
+    /* margin-top: 20%; */
+    /* font-size: 24px; */
+    color: red;
+    animation: blink 1s infinite;
+}
